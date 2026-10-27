@@ -1,0 +1,106 @@
+1
+00:00:00,350 --> 00:00:05,312
+ArborKnowledge Studio verbindet Fachwissen mit
+nachvollziehbaren Quellen.
+
+2
+00:00:05,512 --> 00:00:09,900
+Ein lokales Werkzeug für professionelle
+Baumpflege.
+
+3
+00:00:10,030 --> 00:00:12,343
+Produced by RediON.
+
+4
+00:00:12,893 --> 00:00:18,918
+Fachwissen steckt in Berichten, Forschung,
+Richtlinien und Erfahrung.
+
+5
+00:00:19,048 --> 00:00:23,035
+Beim Schreiben gehen Fundstellen und
+Unsicherheiten oft verloren.
+
+6
+00:00:23,235 --> 00:00:27,710
+Hier bleiben Quelle, Aussage und Entscheidung
+verbunden.
+
+7
+00:00:28,260 --> 00:00:33,735
+Wir erfassen eine Quelle mit Herkunft, Rechten
+und Autoritätsstufe.
+
+8
+00:00:33,935 --> 00:00:37,522
+Aus einem fiktiven Fall entstehen
+Wissenseinheiten.
+
+9
+00:00:37,652 --> 00:00:41,302
+Jede Einheit verweist auf ihre konkrete
+Fundstelle.
+
+10
+00:00:41,503 --> 00:00:45,240
+Die Bibliothek zeigt, welche Aussage von welcher
+Quelle getragen wird.
+
+11
+00:00:45,790 --> 00:00:50,590
+Im Redaktionsbereich werden diese Einheiten
+einem Kapitel zugeordnet.
+
+12
+00:00:50,790 --> 00:00:54,490
+Versionen und Kommentare machen Änderungen
+nachvollziehbar.
+
+13
+00:00:54,690 --> 00:00:57,940
+Erst nach menschlicher Prüfung wird ein Kapitel
+freigegeben.
+
+14
+00:00:58,070 --> 00:01:02,858
+Die Freigabe ersetzt keine fachliche
+Zertifizierung.
+
+15
+00:01:03,058 --> 00:01:07,245
+Ein freigegebenes Buch lässt sich als
+bearbeitbares DOCX exportieren.
+
+16
+00:01:07,795 --> 00:01:10,908
+Dieselbe Wissensbasis kann auch einen Kurs
+speisen.
+
+17
+00:01:11,108 --> 00:01:16,808
+Die Abdeckungsansicht zeigt belegte Einheiten
+und Lücken, bevor das Lernen beginnt.
+
+18
+00:01:17,008 --> 00:01:21,145
+Lernfortschritt bleibt lokal und wird nicht
+stillschweigend von AI verändert.
+
+19
+00:01:21,695 --> 00:01:26,745
+Die Vision führt Quellen, Redaktion und Lernen
+in einer kontrollierten Plattform zusammen.
+
+20
+00:01:26,945 --> 00:01:31,420
+Redion Cekrezi, Full-Stack und Applied AI
+Developer.
+
+21
+00:01:31,550 --> 00:01:33,700
+Upgrade humans.
+
+22
+00:01:33,830 --> 00:01:35,818
+Not replace them.

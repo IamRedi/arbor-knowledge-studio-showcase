@@ -3,23 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d251f">
   <link rel="icon" href="assets/hero.svg" type="image/svg+xml">
-  <title>ArborKnowledge Studio — Real App Demo | RediON</title>
-  <meta name="description" content="Real local application demo for evidence-led arboriculture knowledge, editorial review and learning. Fictional demo data.">
+  <link rel="alternate" hreflang="de" href="https://iamredi.github.io/arbor-knowledge-studio-showcase/?lang=de">
+  <link rel="alternate" hreflang="en" href="https://iamredi.github.io/arbor-knowledge-studio-showcase/?lang=en">
+  <title>ArborKnowledge Studio — Produktdemo | RediON</title>
+  <meta name="description" content="Eine echte lokale Anwendung für nachvollziehbares Fachwissen in der Baumpflege. Fiktive Demodaten; deutsche und englische Filme.">
   <meta property="og:title" content="ArborKnowledge Studio — Produced by RediON">
-  <meta property="og:description" content="Real application demo with fictional data. Sources, evidence, human review and learning.">
+  <meta property="og:description" content="Real application demo with fictional data, human review and evidence-led learning. Watch in German or English.">
   <meta property="og:image" content="https://iamredi.github.io/arbor-knowledge-studio-showcase/assets/social-preview.png">
-  <meta property="og:type" content="video.other">
+  <meta property="og:type" content="website">
   <style>
     :root { color-scheme:dark; --bg:#0d251f; --panel:#173a31; --cream:#f4f0e7; --gold:#c8b074; --soft:#c8d5c9; }
     * { box-sizing:border-box; }
     body { margin:0; background:radial-gradient(circle at 12% 18%,#315545 0,var(--bg) 44%,#081a16 100%); color:var(--cream); font:18px/1.55 Arial,Helvetica,sans-serif; }
     a { color:#e4d39e; text-underline-offset:3px; }
+    button { font:inherit; cursor:pointer; }
     main { width:min(1240px,calc(100% - 40px)); margin:auto; }
-    header { padding:28px 0; display:flex; justify-content:space-between; align-items:center; gap:20px; border-bottom:1px solid #567263; }
-    .brand { color:var(--gold); font-size:14px; font-weight:700; letter-spacing:.22em; text-decoration:none; text-transform:uppercase; }
-    nav { display:flex; gap:22px; font-size:15px; }
-    .eyebrow { margin:70px 0 10px; color:var(--gold); letter-spacing:.2em; font-size:14px; font-weight:700; text-transform:uppercase; }
+    header { padding:24px 0; display:flex; justify-content:space-between; align-items:center; gap:24px; border-bottom:1px solid #567263; }
+    .brand { color:var(--gold); font-size:14px; font-weight:700; letter-spacing:.20em; text-decoration:none; text-transform:uppercase; }
+    .header-right { display:flex; align-items:center; gap:28px; }
+    nav { display:flex; gap:20px; font-size:15px; }
+    .language { display:flex; align-items:center; gap:4px; padding:4px; border:1px solid #7b977f; border-radius:999px; background:#102c24; }
+    .language button { padding:7px 13px; border:0; border-radius:999px; color:var(--soft); background:transparent; font-size:14px; }
+    .language button[aria-pressed="true"] { color:#09251c; background:var(--gold); font-weight:700; }
+    .language button:focus-visible, a:focus-visible, video:focus-visible { outline:3px solid #e7cb7d; outline-offset:3px; }
+    .eyebrow { margin:70px 0 10px; color:var(--gold); letter-spacing:.18em; font-size:14px; font-weight:700; text-transform:uppercase; }
     h1,h2 { font-family:Georgia,serif; font-weight:400; line-height:1.08; }
     h1 { font-size:clamp(50px,7vw,100px); margin:0 0 20px; }
     h2 { font-size:clamp(36px,4vw,57px); margin:0 0 17px; }
@@ -36,35 +45,88 @@
     .status strong { color:var(--gold); display:block; margin-bottom:9px; }
     .status span { color:var(--soft); font-size:15px; }
     footer { border-top:1px solid #537467; padding:25px 0 45px; color:var(--soft); font-size:15px; }
-    @media(max-width:760px) { header{align-items:flex-start;flex-direction:column} .eyebrow{margin-top:45px} .split{display:block} .social{margin-top:30px} .status{grid-template-columns:1fr 1fr} }
-    @media(max-width:460px) { .status{grid-template-columns:1fr} nav{gap:13px;flex-wrap:wrap} .film-note{padding:15px} }
+    @media(max-width:900px) { header{align-items:flex-start;flex-direction:column} .header-right{width:100%;justify-content:space-between} }
+    @media(max-width:760px) { .eyebrow{margin-top:45px} .split{display:block} .social{margin-top:30px} .status{grid-template-columns:1fr 1fr} }
+    @media(max-width:460px) { .status{grid-template-columns:1fr} nav{gap:13px;flex-wrap:wrap} .film-note{padding:15px} .header-right{align-items:flex-start;gap:15px;flex-direction:column} }
   </style>
 </head>
 <body>
 <main>
-  <header><a class="brand" href="./">RediON / ArborKnowledge Studio</a><nav><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase">Projekt</a><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase/blob/main/README.en.md">English</a><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase">GitHub</a></nav></header>
-  <p class="eyebrow">Real application · Fictional demo data</p>
-  <h1>Wissen mit Herkunft.<br>Menschen mit Kontrolle.</h1>
-  <p class="lead">Eine lokale Wissens-, Redaktions- und Lernplattform für professionelle Baumpflege. Erlebt in einem echten Anwendungsablauf mit ausschließlich fiktiven Daten.</p>
-  <section aria-label="Hauptfilm">
-    <div class="film">
-      <video controls playsinline preload="metadata" poster="assets/video-thumbnail.png" aria-label="ArborKnowledge Studio Hauptfilm, 90 Sekunden">
-        <source src="media/arbor-knowledge-studio-master.mp4" type="video/mp4">
-        <track src="media/arbor-knowledge-studio-master-de.vtt" kind="subtitles" srclang="de" label="Deutsch">
-        <track src="media/arbor-knowledge-studio-master-en.vtt" kind="subtitles" srclang="en" label="English">
-        Dein Browser unterstützt kein HTML5-Video. <a href="media/arbor-knowledge-studio-master.mp4">MP4 herunterladen</a>.
-      </video>
-      <div class="film-note"><span>90 s · 1920 × 1080 · Deutsche Stimme</span><span>Echte App · fiktive Daten · UI-Texte für die Präsentation übersetzt</span></div>
+  <header>
+    <a class="brand" href="./">RediON / ArborKnowledge Studio</a>
+    <div class="header-right">
+      <nav aria-label="Project"><a id="repoLink" href="https://github.com/IamRedi/arbor-knowledge-studio-showcase" data-copy="project">Projekt</a><a id="rightsLink" href="https://github.com/IamRedi/arbor-knowledge-studio-showcase/blob/main/RIGHTS.md" data-copy="rights">Rechte &amp; Herkunft</a></nav>
+      <div class="language" role="group" aria-label="Language / Sprache">
+        <button type="button" data-lang="de" aria-pressed="true">Deutsch</button>
+        <button type="button" data-lang="en" aria-pressed="false">English</button>
+      </div>
     </div>
-    <div class="links"><a href="media/arbor-knowledge-studio-master.mp4">Film herunterladen</a><a href="media/arbor-knowledge-studio-master-de.srt">DE-SRT</a><a href="media/arbor-knowledge-studio-master-en.srt">EN-SRT</a><a href="media/transcript.md">Transkript DE/EN</a></div>
+  </header>
+  <p class="eyebrow" data-copy="eyebrow">Echte Anwendung · fiktive Demodaten</p>
+  <h1 data-copy-html="heading">Wissen mit Herkunft.<br>Menschen mit Kontrolle.</h1>
+  <p class="lead" data-copy="lead">Eine lokale Wissens-, Redaktions- und Lernplattform für professionelle Baumpflege. Erlebt in einem echten Ablauf mit ausschließlich fiktiven Daten.</p>
+  <section aria-label="Main film">
+    <div class="film">
+      <video id="masterVideo" controls playsinline preload="metadata" poster="assets/video-thumbnail.png" aria-label="ArborKnowledge Studio Hauptfilm">
+        <source src="media/arbor-knowledge-studio-master-de.mp4" type="video/mp4">
+        <track src="media/arbor-knowledge-studio-master-de-captions-de.vtt" kind="subtitles" srclang="de" label="Deutsch" default>
+        <track src="media/arbor-knowledge-studio-master-de-captions-en.vtt" kind="subtitles" srclang="en" label="English">
+      </video>
+      <div class="film-note"><span id="masterNote">≈ 90 s · 1920 × 1080 · Azure-Stimme Deutsch</span><span data-copy="footage">Echte App · fiktive Daten · UI-Texte für die Präsentation ins Englische übertragen</span></div>
+    </div>
+    <div class="links"><a id="masterDownload" download href="media/arbor-knowledge-studio-master-de.mp4" data-copy="downloadMaster">Hauptfilm herunterladen</a><a id="masterNativeSrt" href="media/arbor-knowledge-studio-master-de-captions-de.srt">DE-SRT</a><a id="masterAltSrt" href="media/arbor-knowledge-studio-master-de-captions-en.srt">EN-SRT</a><a id="masterNativeVtt" href="media/arbor-knowledge-studio-master-de-captions-de.vtt">DE-VTT</a><a id="masterAltVtt" href="media/arbor-knowledge-studio-master-de-captions-en.vtt">EN-VTT</a><a id="transcript" href="media/transcript.md" data-copy="transcript">Transkript DE/EN</a></div>
   </section>
   <hr class="divider">
-  <section class="split" id="social" aria-label="Social-Film">
-    <div><p class="eyebrow" style="margin-top:0">Kurzfilm / Social cut</p><h2>Die Idee in 35 Sekunden.</h2><p class="lead">Quellen und Wissenseinheiten werden für Redaktion und Lernen nutzbar, während die fachliche Freigabe beim Menschen bleibt.</p><p>Der vertikale Film nutzt dieselben echten App-Aufnahmen, grafisch für Mobilgeräte gesetzt.</p><div class="links"><a href="media/arbor-knowledge-studio-social.mp4">Kurzfilm herunterladen</a><a href="media/arbor-knowledge-studio-social-de.srt">DE-SRT</a><a href="media/arbor-knowledge-studio-social-en.srt">EN-SRT</a></div></div>
-    <div class="film social"><video controls playsinline preload="metadata" aria-label="ArborKnowledge Studio Kurzfilm, 35 Sekunden"><source src="media/arbor-knowledge-studio-social.mp4" type="video/mp4"><track src="media/arbor-knowledge-studio-social-de.vtt" kind="subtitles" srclang="de" label="Deutsch"><track src="media/arbor-knowledge-studio-social-en.vtt" kind="subtitles" srclang="en" label="English"></video></div>
+  <section class="split" id="social" aria-label="Vertical film">
+    <div><p class="eyebrow" style="margin-top:0" data-copy="socialEyebrow">Kurzfilm / Social Cut</p><h2 data-copy="socialHeading">Die Idee in 35 Sekunden.</h2><p class="lead" data-copy="socialLead">Quellen und Wissenseinheiten werden für Redaktion und Lernen nutzbar, während die fachliche Freigabe beim Menschen bleibt.</p><p data-copy="socialDescription">Der vertikale Film nutzt dieselben echten App-Aufnahmen, grafisch für Mobilgeräte gesetzt.</p><div class="links"><a id="socialDownload" download href="media/arbor-knowledge-studio-social-de.mp4" data-copy="downloadSocial">Kurzfilm herunterladen</a><a id="socialNativeSrt" href="media/arbor-knowledge-studio-social-de-captions-de.srt">DE-SRT</a><a id="socialAltSrt" href="media/arbor-knowledge-studio-social-de-captions-en.srt">EN-SRT</a><a id="socialNativeVtt" href="media/arbor-knowledge-studio-social-de-captions-de.vtt">DE-VTT</a><a id="socialAltVtt" href="media/arbor-knowledge-studio-social-de-captions-en.vtt">EN-VTT</a></div></div>
+    <div class="film social"><video id="socialVideo" controls playsinline preload="metadata" poster="assets/social-preview.png" aria-label="ArborKnowledge Studio Kurzfilm"><source src="media/arbor-knowledge-studio-social-de.mp4" type="video/mp4"><track src="media/arbor-knowledge-studio-social-de-captions-de.vtt" kind="subtitles" srclang="de" label="Deutsch" default><track src="media/arbor-knowledge-studio-social-de-captions-en.vtt" kind="subtitles" srclang="en" label="English"></video></div>
   </section>
-  <section class="status" aria-label="Projektstatus"><div><strong>Implemented</strong><span>Quellen, Wissenseinheiten, Redaktion, Export, Kurse.</span></div><div><strong>Verified</strong><span>261 Tests, V4-Smoke und Browserchecks mit fiktivem Fall.</span></div><div><strong>In Development</strong><span>Adaptiver AI-Lehrzweig im privaten Draft-Review.</span></div><div><strong>Vision</strong><span>Breitere Literatur- und Lern-Workflows.</span></div></section>
-  <footer>Redion Cekrezi · Full-Stack &amp; Applied AI Developer · <a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase/blob/main/RIGHTS.md">Rechte &amp; Provenienz</a><br><strong>Produced by RediON — Upgrade humans. Not replace them.</strong></footer>
+  <section class="status" aria-label="Project status"><div><strong>Implemented</strong><span data-copy="implemented">Quellen, Wissenseinheiten, Redaktion, Export und Kurse.</span></div><div><strong>Verified</strong><span data-copy="verified">261 Tests, V4-Smoke und Browserchecks mit fiktivem Fall.</span></div><div><strong>In Development</strong><span data-copy="development">Adaptiver AI-Lehrzweig im privaten Draft-Review.</span></div><div><strong>Vision</strong><span data-copy="vision">Breitere Literatur- und Lern-Workflows.</span></div></section>
+  <footer>Redion Cekrezi · Full-Stack &amp; Applied AI Developer<br><strong>Produced by RediON — Upgrade humans. Not replace them.</strong></footer>
 </main>
+<script>
+  const copy = {
+    de: {title:'ArborKnowledge Studio — Produktdemo | RediON', description:'Eine echte lokale Anwendung für nachvollziehbares Fachwissen in der Baumpflege. Fiktive Demodaten; deutsche und englische Filme.', project:'Projekt',rights:'Rechte & Herkunft',eyebrow:'Echte Anwendung · fiktive Demodaten',heading:'Wissen mit Herkunft.<br>Menschen mit Kontrolle.',lead:'Eine lokale Wissens-, Redaktions- und Lernplattform für professionelle Baumpflege. Erlebt in einem echten Ablauf mit ausschließlich fiktiven Daten.',footage:'Echte App · fiktive Daten · UI-Texte für die Präsentation ins Englische übertragen',downloadMaster:'Hauptfilm herunterladen',transcript:'Transkript DE/EN',socialEyebrow:'Kurzfilm / Social Cut',socialHeading:'Die Idee in 35 Sekunden.',socialLead:'Quellen und Wissenseinheiten werden für Redaktion und Lernen nutzbar, während die fachliche Freigabe beim Menschen bleibt.',socialDescription:'Der vertikale Film nutzt dieselben echten App-Aufnahmen, grafisch für Mobilgeräte gesetzt.',downloadSocial:'Kurzfilm herunterladen',implemented:'Quellen, Wissenseinheiten, Redaktion, Export und Kurse.',verified:'261 Tests, V4-Smoke und Browserchecks mit fiktivem Fall.',development:'Adaptiver AI-Lehrzweig im privaten Draft-Review.',vision:'Breitere Literatur- und Lern-Workflows.'},
+    en: {title:'ArborKnowledge Studio — Product demo | RediON', description:'A real local application for evidence-led knowledge in professional tree care. Fictional demo data; German and English films.',project:'Project',rights:'Rights & provenance',eyebrow:'Real application · fictional demo data',heading:'Knowledge with provenance.<br>People in control.',lead:'A local platform for evidence-led knowledge, editorial work and learning in professional tree care. Shown through a real workflow with fictional data.',footage:'Real app · fictional data · UI labels translated into English for this presentation',downloadMaster:'Download main film',transcript:'Transcript DE/EN',socialEyebrow:'Short film / social cut',socialHeading:'The idea in 35 seconds.',socialLead:'Sources and knowledge units support publishing and learning, while professional approval remains a human decision.',socialDescription:'The vertical film uses the same real application footage, composed for mobile screens.',downloadSocial:'Download short film',implemented:'Sources, knowledge units, editorial review, export and courses.',verified:'261 tests, V4 smoke test and browser checks with a fictional case.',development:'Adaptive AI teaching is under private draft review.',vision:'A broader literature and learning workflow.'}
+  };
+  function updateFilm(format, lang) {
+    const video = document.getElementById(format + 'Video');
+    video.pause();
+    [...video.textTracks].forEach(track => track.mode = 'disabled');
+    video.querySelector('source').src = `media/arbor-knowledge-studio-${format}-${lang}.mp4`;
+    const tracks = video.querySelectorAll('track');
+    tracks[0].src = `media/arbor-knowledge-studio-${format}-${lang}-captions-de.vtt`;
+    tracks[1].src = `media/arbor-knowledge-studio-${format}-${lang}-captions-en.vtt`;
+    tracks.forEach(track => track.removeAttribute('default'));
+    tracks[lang === 'de' ? 0 : 1].setAttribute('default', '');
+    video.poster = format === 'master' ? (lang === 'de' ? 'assets/video-thumbnail.png' : 'assets/video-thumbnail-en.png') : 'assets/social-preview.png';
+    video.setAttribute('aria-label', `ArborKnowledge Studio ${format === 'master' ? 'main film' : 'short film'} — ${lang === 'de' ? 'German' : 'English'}`);
+    video.load();
+    video.addEventListener('loadedmetadata', () => {
+      tracks[lang === 'de' ? 0 : 1].track.mode = 'showing';
+    }, {once:true});
+    document.getElementById(format + 'Download').href = `media/arbor-knowledge-studio-${format}-${lang}.mp4`;
+    for (const [id, caption, extension] of [['NativeSrt',lang,'srt'],['AltSrt',lang === 'de' ? 'en' : 'de','srt'],['NativeVtt',lang,'vtt'],['AltVtt',lang === 'de' ? 'en' : 'de','vtt']]) {
+      const anchor = document.getElementById(format + id);
+      anchor.href = `media/arbor-knowledge-studio-${format}-${lang}-captions-${caption}.${extension}`;
+      anchor.textContent = `${caption.toUpperCase()}-${extension.toUpperCase()}`;
+    }
+  }
+  function setLanguage(lang, updateUrl = true) {
+    if (!copy[lang]) lang = 'de';
+    document.documentElement.lang = lang;
+    document.title = copy[lang].title;
+    document.querySelector('meta[name="description"]').content = copy[lang].description;
+    document.querySelectorAll('[data-copy]').forEach(element => element.textContent = copy[lang][element.dataset.copy]);
+    document.querySelectorAll('[data-copy-html]').forEach(element => element.innerHTML = copy[lang][element.dataset.copyHtml]);
+    document.querySelectorAll('[data-lang]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === lang)));
+    updateFilm('master',lang);
+    updateFilm('social',lang);
+    document.getElementById('masterNote').textContent = `≈ 90 s · 1920 × 1080 · ${lang === 'de' ? 'Azure-Stimme Deutsch' : 'Azure English voice'}`;
+    if (updateUrl) { const url = new URL(location.href); url.searchParams.set('lang', lang); history.replaceState(null, '', url); }
+  }
+  document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+  setLanguage(new URLSearchParams(location.search).get('lang') || 'de', false);
+</script>
 </body>
 </html>

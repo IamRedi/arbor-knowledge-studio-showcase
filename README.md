@@ -6,13 +6,20 @@
 
 **[English version](README.en.md)** · **Stand: 27. Oktober 2026** · **Produced by RediON**
 
-## In 90 Sekunden ansehen
+## Filme auf Deutsch und Englisch
 
-[![ArborKnowledge Studio: 90 Sekunden realer Produktdemo](assets/video-thumbnail.png)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)
+[![ArborKnowledge Studio: reale Produktdemo auf Deutsch und Englisch](assets/video-thumbnail.png)](https://iamredi.github.io/arbor-knowledge-studio-showcase/?lang=de)
 
-**[Demo-Film im Player ansehen (90 s, 1920 × 1080)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Vertikaler Kurzfilm (35 s)](https://iamredi.github.io/arbor-knowledge-studio-showcase/#social) · [MP4 herunterladen](media/arbor-knowledge-studio-master.mp4) · [Deutsche Untertitel](media/arbor-knowledge-studio-master-de.srt) · [English subtitles](media/arbor-knowledge-studio-master-en.srt) · [Transkript DE/EN](media/transcript.md)
+**[Interaktiver Player: Deutsch | English](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Transkript DE/EN](media/transcript.md)
 
-Die Videoaufnahmen zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Sichtbare UI-Beschriftungen wurden für diese öffentliche Präsentation im Browser ins Englische übersetzt; Funktionen, Daten und privater Produktcode blieben unverändert. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; der Film behauptet keine erfolgreiche Live-AI-Antwort.
+| Fassung | Film | Untertitel |
+|---|---|---|
+| Master DE · 1920 × 1080 | [MP4](media/arbor-knowledge-studio-master-de.mp4) | [DE-SRT](media/arbor-knowledge-studio-master-de-captions-de.srt) · [EN-SRT](media/arbor-knowledge-studio-master-de-captions-en.srt) |
+| Master EN · 1920 × 1080 | [MP4](media/arbor-knowledge-studio-master-en.mp4) | [EN-SRT](media/arbor-knowledge-studio-master-en-captions-en.srt) · [DE-SRT](media/arbor-knowledge-studio-master-en-captions-de.srt) |
+| Social DE · 1080 × 1920 | [MP4](media/arbor-knowledge-studio-social-de.mp4) | [DE-SRT](media/arbor-knowledge-studio-social-de-captions-de.srt) · [EN-SRT](media/arbor-knowledge-studio-social-de-captions-en.srt) |
+| Social EN · 1080 × 1920 | [MP4](media/arbor-knowledge-studio-social-en.mp4) | [EN-SRT](media/arbor-knowledge-studio-social-en-captions-en.srt) · [DE-SRT](media/arbor-knowledge-studio-social-en-captions-de.srt) |
+
+Die vier Filme zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Deutsch und Englisch haben jeweils eigene Azure-Speech-Narration, Szenenzeiten und wählbare DE/EN-Untertitel als SRT und VTT. Sichtbare UI-Beschriftungen wurden für diese öffentliche Präsentation im Browser ins Englische übersetzt; Funktionen, Daten und privater Produktcode blieben unverändert. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; die Filme behaupten keine erfolgreiche Live-AI-Antwort.
 
 | Status | Was im Film zu sehen ist |
 |---|---|

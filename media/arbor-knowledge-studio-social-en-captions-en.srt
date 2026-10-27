@@ -1,0 +1,45 @@
+1
+00:00:00,350 --> 00:00:05,312
+ArborKnowledge Studio makes
+professional knowledge traceable,
+from the source onward.
+
+2
+00:00:05,862 --> 00:00:09,450
+A fictional case becomes a set of
+knowledge units.
+
+3
+00:00:09,580 --> 00:00:13,230
+Each one links back to the precise
+place it came from.
+
+4
+00:00:13,780 --> 00:00:17,030
+Only a human reviewer can approve a
+chapter.
+
+5
+00:00:17,160 --> 00:00:21,947
+That approval is an editorial
+decision, not a professional
+certification.
+
+6
+00:00:22,498 --> 00:00:28,197
+Before learning begins, the coverage
+view shows what is supported and
+what still needs evidence.
+
+7
+00:00:28,748 --> 00:00:33,222
+Redion Cekrezi, full stack and
+applied AI developer.
+
+8
+00:00:33,352 --> 00:00:35,502
+Upgrade humans.
+
+9
+00:00:35,632 --> 00:00:37,620
+Not replace them.

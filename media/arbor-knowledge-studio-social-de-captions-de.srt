@@ -1,0 +1,44 @@
+1
+00:00:00,350 --> 00:00:04,762
+ArborKnowledge Studio verbindet
+Fachwissen mit nachvollziehbaren
+Quellen.
+
+2
+00:00:05,312 --> 00:00:09,025
+Aus einem fiktiven Fall entstehen
+Wissenseinheiten.
+
+3
+00:00:09,155 --> 00:00:12,980
+Jede Einheit verweist auf ihre
+konkrete Fundstelle.
+
+4
+00:00:13,530 --> 00:00:17,643
+Erst nach menschlicher Prüfung wird
+ein Kapitel freigegeben.
+
+5
+00:00:17,772 --> 00:00:21,610
+Die Freigabe ersetzt keine fachliche
+Zertifizierung.
+
+6
+00:00:22,160 --> 00:00:27,498
+Die Abdeckungsansicht zeigt belegte
+Einheiten und Lücken, bevor das
+Lernen beginnt.
+
+7
+00:00:28,048 --> 00:00:32,223
+Redion Cekrezi, Full-Stack und
+Applied AI Developer.
+
+8
+00:00:32,353 --> 00:00:34,278
+Upgrade humans.
+
+9
+00:00:34,408 --> 00:00:36,332
+Not replace them.

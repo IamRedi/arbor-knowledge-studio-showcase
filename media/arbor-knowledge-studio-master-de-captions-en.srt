@@ -1,0 +1,104 @@
+1
+00:00:00,350 --> 00:00:04,762
+ArborKnowledge Studio makes professional
+knowledge traceable, from the source onward.
+
+2
+00:00:04,962 --> 00:00:08,825
+Built for professional tree care and designed
+for human judgment.
+
+3
+00:00:08,955 --> 00:00:11,080
+Produced by RediON.
+
+4
+00:00:11,630 --> 00:00:16,505
+Expertise is scattered across reports, research,
+guidance and field experience.
+
+5
+00:00:16,635 --> 00:00:20,910
+When we write, the evidence behind a claim can
+disappear.
+
+6
+00:00:21,110 --> 00:00:25,298
+Here, every source, statement and decision stays
+connected.
+
+7
+00:00:25,848 --> 00:00:30,773
+First, we register a source with its origin,
+usage rights and authority level.
+
+8
+00:00:30,973 --> 00:00:34,685
+A fictional case becomes a set of knowledge
+units.
+
+9
+00:00:34,815 --> 00:00:38,640
+Each one links back to the precise place it came
+from.
+
+10
+00:00:38,840 --> 00:00:43,803
+The library shows which source supports every
+statement.
+
+11
+00:00:44,353 --> 00:00:49,165
+In the editorial workspace, the knowledge units
+are connected to a chapter.
+
+12
+00:00:49,365 --> 00:00:53,378
+Versions and comments leave a clear record of
+changes.
+
+13
+00:00:53,578 --> 00:00:57,690
+Only a human reviewer can approve a chapter.
+
+14
+00:00:57,820 --> 00:01:01,658
+That approval is an editorial decision, not a
+professional certification.
+
+15
+00:01:01,858 --> 00:01:06,695
+An approved book can be exported as an editable
+Word document.
+
+16
+00:01:07,245 --> 00:01:10,945
+The same evidence base can support a course.
+
+17
+00:01:11,145 --> 00:01:16,483
+Before learning begins, the coverage view shows
+what is supported and what still needs evidence.
+
+18
+00:01:16,683 --> 00:01:22,608
+Progress stays local, and AI never changes it
+silently.
+
+19
+00:01:23,158 --> 00:01:28,995
+The vision is one controlled workflow for
+sources, publishing and learning.
+
+20
+00:01:29,195 --> 00:01:33,370
+Redion Cekrezi, full stack and applied AI
+developer.
+
+21
+00:01:33,500 --> 00:01:35,425
+Upgrade humans.
+
+22
+00:01:35,555 --> 00:01:37,480
+Not replace them.

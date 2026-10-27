@@ -30,7 +30,7 @@ The live API attempts were constrained to at most 2,048 completion tokens each. 
 - The screenshots display self-authored fictional records. They do not display the owner's real literature, attachments, canonical database or private documents.
 - Optional semantic retrieval was covered by repository tests and prior project evidence, but the public demo used the local lexical/default path; no model download was initiated for the showcase.
 
-## Phase 2 — film and publication checks
+## Phase 2 — historical film and publication checks (superseded by bilingual edition)
 
 | Check | Observation |
 |---|---|
@@ -44,3 +44,18 @@ The live API attempts were constrained to at most 2,048 completion tokens each. 
 | Sources and rights | The raw recordings, original narration, scripts, timelines and captions are retained in a local source ZIP with a SHA-256 manifest. Public media and source package passed a file-list and content-safety audit. |
 
 New external-service spend for Phase 2: **0 €**. A read-only credential check does not generate tokens.
+
+## Final bilingual edition — 27 October 2026
+
+The original two local-TTS films described above were preserved in the project archive and replaced in the public showcase by four Azure AI Speech editions. No application code, owner database, private branch or draft PR was changed during this edition.
+
+| Version | Narrator | Format | Final duration |
+|---|---|---|---|
+| Master DE | `de-DE-ConradNeural` | 1920 × 1080, H.264/AAC, 30 fps | 98.667 s |
+| Master EN | `en-GB-RyanNeural` | 1920 × 1080, H.264/AAC, 30 fps | 97.000 s |
+| Social DE | `de-DE-ConradNeural` | 1080 × 1920, H.264/AAC, 30 fps | 37.500 s |
+| Social EN | `en-GB-RyanNeural` | 1080 × 1920, H.264/AAC, 30 fps | 38.800 s |
+
+The existing real-application recordings were reused. English editorial cards were prepared separately; app labels remain an English browser-only presentation translation. Azure's voice list confirmed the chosen Neural voices and the tested alternatives `de-DE-KatjaNeural`, `en-GB-SoniaNeural`, `en-US-GuyNeural` and `en-US-JennyNeural`. Short trials were generated before the final scripts. The Azure Speech resource was an existing **F0** instance in Germany West Central; 2,542 final-script characters were synthesized, with no new paid resource. The service key was passed through a local memory-only bridge and excluded from files and the public repository. The 0 € incremental cost is based on the F0 tier and usage below the published monthly allowance; it is not an invoice measurement.
+
+Each video has one narration language, two selectable embedded text-subtitle tracks and separate SRT/VTT files for both languages. Subtitle cues were aligned to measured sentence audio boundaries. The website switches both video files, captions, metadata and download links together. Local full-decode, frame sampling, volume/peak, browser playback and public-link checks were performed for the final files; the automated checks and their limits are documented in the source archive. A machine cannot replace a human listening review of accent and pronunciation.
