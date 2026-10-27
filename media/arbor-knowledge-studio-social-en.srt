@@ -1,0 +1,25 @@
+1
+00:00:00,350 --> 00:00:04,963
+ArborKnowledge Studio connects professional
+knowledge with verifiable provenance.
+
+2
+00:00:05,513 --> 00:00:12,115
+A fictional case becomes knowledge units. Every
+unit points to a specific source location.
+
+3
+00:00:12,665 --> 00:00:19,946
+A chapter is approved only after human review.
+Approval does not replace professional
+certification.
+
+4
+00:00:20,496 --> 00:00:25,889
+The coverage view shows supported units and gaps
+before learning begins.
+
+5
+00:00:26,439 --> 00:00:34,065
+Redion Cekrezi, Full-Stack and Applied AI
+Developer. Upgrade humans. Not replace them.

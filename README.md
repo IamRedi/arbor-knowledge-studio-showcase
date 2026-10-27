@@ -6,6 +6,21 @@
 
 **[English version](README.en.md)** · **Stand: 27. Oktober 2026** · **Produced by RediON**
 
+## In 90 Sekunden ansehen
+
+[![ArborKnowledge Studio: 90 Sekunden realer Produktdemo](assets/video-thumbnail.png)](media/arbor-knowledge-studio-master.mp4)
+
+**[Demo-Film ansehen (90 s, 1920 × 1080)](media/arbor-knowledge-studio-master.mp4)** · [Vertikaler Kurzfilm (35 s)](media/arbor-knowledge-studio-social.mp4) · [Deutsche Untertitel](media/arbor-knowledge-studio-master-de.srt) · [English subtitles](media/arbor-knowledge-studio-master-en.srt) · [Transkript DE/EN](media/transcript.md)
+
+Die Videoaufnahmen zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; der Film behauptet keine erfolgreiche Live-AI-Antwort.
+
+| Status | Was im Film zu sehen ist |
+|---|---|
+| **Implemented** | Quellen, Wissenseinheiten, Quellverweise, Kapitel, Versionen, Freigaben, DOCX-Export und Kursansichten |
+| **Verified** | Synthetischer End-to-End-Fall, 261 Tests, V4-Smoke-Test und Desktop/Mobile-Browserprüfung |
+| **In Development** | Adaptiver mehrsprachiger AI-Lehrzweig im privaten Draft-Review; Live-API aktuell wegen `invalid_api_key` nicht verifiziert |
+| **Vision** | Breitere Fachliteratur-Pipeline, weitere Lernformate und isolierte Fachräume |
+
 ## Warum dieses Projekt?
 
 In der Baumpflege stammen Informationen aus Fachliteratur, Richtlinien, Schulung und dokumentierter Praxis. Bei der Weiterverarbeitung gehen Fundstellen, Rechte, Unsicherheit und redaktionelle Entscheidungen leicht verloren. ArborKnowledge Studio hält diese Beziehungen explizit: Eine Aussage verweist auf ihre Quelle; ein Kapitel verknüpft die verwendeten Wissenseinheiten; ein Mensch prüft und gibt Inhalte frei.
@@ -56,7 +71,7 @@ Der lokale Stack besteht aus **Python, FastAPI, Jinja2, SQLite** und schlanker B
 - Der vollständige **V4-Loopback-Smoke-Test bestand**, einschließlich Backup/Restore, DOCX nach Restore, geführtem Publishing und Stop/Restart/Resume im Lernmodus.
 - Ein vollständiger synthetischer Ablauf erzeugte und las Quellen, Wissenseinheiten, Quellverweise, Kapitel, Version, Kommentar, Freigabe, DOCX und Kurs. Der Export wurde als gültiger DOCX-Container geprüft.
 - **20 Chrome-Ansichten** bei 1440 × 900 und 390 × 844: HTTP 200, erwarteter Inhalt, keine JavaScript-Fehler, keine 404 und kein horizontales Seiten-Overflow.
-- Zwei begrenzte reale API-Versuche endeten mit `authentication`; danach wurden keine weiteren Live-Aufrufe gestartet. Regressionstests der AI-Pfade verwenden einen deterministischen Fake-Provider.
+- Zwei begrenzte reale API-Versuche endeten mit `authentication`. Ein anschließender kostenloser, schreibfreier Modellzugriffstest bestätigte `401 invalid_api_key`; es wurden keine weiteren Generierungen gestartet. Regressionstests der AI-Pfade verwenden einen deterministischen Fake-Provider.
 - Die private kanonische Datenbank blieb unangetastet. [Prüfprotokoll und Abgrenzung](EVIDENCE.md).
 
 ## Vision und nächste Schritte

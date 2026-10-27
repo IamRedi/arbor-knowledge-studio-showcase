@@ -4,6 +4,21 @@
 
 **[Deutsch / main README](README.md)** · **As of 27 October 2026** · **Produced by RediON**
 
+## Watch the 90-second demo
+
+[![ArborKnowledge Studio: 90-second real application demo](assets/video-thumbnail.png)](media/arbor-knowledge-studio-master.mp4)
+
+**[Watch the full film (90 s, 1920 × 1080)](media/arbor-knowledge-studio-master.mp4)** · [Vertical social cut (35 s)](media/arbor-knowledge-studio-social.mp4) · [German captions](media/arbor-knowledge-studio-master-de.srt) · [English captions](media/arbor-knowledge-studio-master-en.srt) · [DE/EN transcript](media/transcript.md)
+
+The screen recording shows the **running local application** with fictional data. The intro and architecture cards are original editorial graphics. The film does not claim a successful live AI response.
+
+| Status | Scope shown or described |
+|---|---|
+| **Implemented** | Sources, knowledge units, provenance links, chapters, versions, approvals, DOCX export and course views |
+| **Verified** | Synthetic end-to-end case, 261 tests, V4 smoke test and desktop/mobile browser checks |
+| **In Development** | Adaptive multilingual AI teaching branch in private draft review; live API currently unverified due to `invalid_api_key` |
+| **Vision** | Broader professional literature pipeline, more learning formats and isolated domain spaces |
+
 ![ArborKnowledge Studio cover illustration](assets/hero.svg)
 
 ## The problem it addresses
@@ -51,7 +66,7 @@ Source citations support traceability, but do not by themselves prove a scientif
 
 ## Verification and roadmap
 
-The isolated Windows/Python 3.13 worktree passed **261 automated tests** and the full local V4 smoke test, including backup/restore and stop/restart/resume. A synthetic end-to-end flow exercised creation, provenance, editorial approval, DOCX and study; **20 Chrome views** passed desktop/mobile checks without JavaScript errors, 404s or page-level horizontal overflow. Two capped live API calls received `authentication` errors and were not repeated. See [verification evidence](EVIDENCE.md).
+The isolated Windows/Python 3.13 worktree passed **261 automated tests** and the full local V4 smoke test, including backup/restore and stop/restart/resume. A synthetic end-to-end flow exercised creation, provenance, editorial approval, DOCX and study; **20 Chrome views** passed desktop/mobile checks without JavaScript errors, 404s or page-level horizontal overflow. Two capped live API calls received `authentication` errors; a subsequent no-generation credential check returned `401 invalid_api_key`. No further generation was attempted. See [verification evidence](EVIDENCE.md).
 
 Longer-term work includes broader literature processing, guided editorial workflows, multilingual learning content, assessments and isolated knowledge spaces for other domains. These are roadmap items unless explicitly listed above as implemented and verified.
 
