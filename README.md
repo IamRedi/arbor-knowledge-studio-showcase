@@ -6,7 +6,6 @@
 
 **[English version](README.en.md)** · **Stand: 27. Oktober 2026** · **Produced by RediON**
 
-
 > **Nachweisstand und Grenzen:** Öffentlicher Produkt-Showcase mit fiktiven Daten; der vollständige Anwendungscode bleibt privat. Der lokale End-to-End-Ablauf und 261 Tests sind dokumentiert. Eine erfolgreiche Antwort eines live angebundenen KI-Modells wurde nicht nachgewiesen. [Prüfprotokoll (EN)](EVIDENCE.md).
 
 ## Filme auf Deutsch und Englisch
