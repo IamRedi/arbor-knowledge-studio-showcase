@@ -6,9 +6,9 @@
 
 ## Watch the 90-second demo
 
-[![ArborKnowledge Studio: 90-second real application demo](assets/video-thumbnail.png)](media/arbor-knowledge-studio-master.mp4)
+[![ArborKnowledge Studio: 90-second real application demo](assets/video-thumbnail.png)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)
 
-**[Watch the full film (90 s, 1920 × 1080)](media/arbor-knowledge-studio-master.mp4)** · [Vertical social cut (35 s)](media/arbor-knowledge-studio-social.mp4) · [German captions](media/arbor-knowledge-studio-master-de.srt) · [English captions](media/arbor-knowledge-studio-master-en.srt) · [DE/EN transcript](media/transcript.md)
+**[Watch the full film in the player (90 s, 1920 × 1080)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Vertical social cut (35 s)](https://iamredi.github.io/arbor-knowledge-studio-showcase/#social) · [Download MP4](media/arbor-knowledge-studio-master.mp4) · [German captions](media/arbor-knowledge-studio-master-de.srt) · [English captions](media/arbor-knowledge-studio-master-en.srt) · [DE/EN transcript](media/transcript.md)
 
 The screen recording shows the **running local application** with fictional data. The intro and architecture cards are original editorial graphics. The film does not claim a successful live AI response.
 

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArborKnowledge Studio — Real App Demo | RediON</title>
+  <meta name="description" content="Real local application demo for evidence-led arboriculture knowledge, editorial review and learning. Fictional demo data.">
+  <meta property="og:title" content="ArborKnowledge Studio — Produced by RediON">
+  <meta property="og:description" content="Real application demo with fictional data. Sources, evidence, human review and learning.">
+  <meta property="og:image" content="https://iamredi.github.io/arbor-knowledge-studio-showcase/assets/social-preview.png">
+  <meta property="og:type" content="video.other">
+  <style>
+    :root { color-scheme:dark; --bg:#0d251f; --panel:#173a31; --cream:#f4f0e7; --gold:#c8b074; --soft:#c8d5c9; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(circle at 12% 18%,#315545 0,var(--bg) 44%,#081a16 100%); color:var(--cream); font:18px/1.55 Arial,Helvetica,sans-serif; }
+    a { color:#e4d39e; text-underline-offset:3px; }
+    main { width:min(1240px,calc(100% - 40px)); margin:auto; }
+    header { padding:28px 0; display:flex; justify-content:space-between; align-items:center; gap:20px; border-bottom:1px solid #567263; }
+    .brand { color:var(--gold); font-size:14px; font-weight:700; letter-spacing:.22em; text-decoration:none; text-transform:uppercase; }
+    nav { display:flex; gap:22px; font-size:15px; }
+    .eyebrow { margin:70px 0 10px; color:var(--gold); letter-spacing:.2em; font-size:14px; font-weight:700; text-transform:uppercase; }
+    h1,h2 { font-family:Georgia,serif; font-weight:400; line-height:1.08; }
+    h1 { font-size:clamp(50px,7vw,100px); margin:0 0 20px; }
+    h2 { font-size:clamp(36px,4vw,57px); margin:0 0 17px; }
+    .lead { max-width:850px; color:var(--soft); font-size:clamp(19px,2.3vw,25px); margin:0 0 45px; }
+    .film { background:#071a15; border:1px solid #537467; border-radius:18px; overflow:hidden; box-shadow:0 28px 70px #0006; }
+    video { display:block; width:100%; height:auto; background:#071a15; }
+    .film-note { padding:19px 25px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; color:var(--soft); font-size:15px; }
+    .links { display:flex; flex-wrap:wrap; gap:10px 22px; margin:19px 0 0; font-size:15px; }
+    .divider { margin:80px 0; border:0; border-top:1px solid #537467; }
+    .split { display:grid; grid-template-columns:1fr minmax(270px,420px); gap:55px; align-items:start; }
+    .social { max-width:420px; }
+    .status { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:55px 0 80px; }
+    .status div { background:var(--panel); border:1px solid #537467; border-radius:14px; padding:20px; }
+    .status strong { color:var(--gold); display:block; margin-bottom:9px; }
+    .status span { color:var(--soft); font-size:15px; }
+    footer { border-top:1px solid #537467; padding:25px 0 45px; color:var(--soft); font-size:15px; }
+    @media(max-width:760px) { header{align-items:flex-start;flex-direction:column} .eyebrow{margin-top:45px} .split{display:block} .social{margin-top:30px} .status{grid-template-columns:1fr 1fr} }
+    @media(max-width:460px) { .status{grid-template-columns:1fr} nav{gap:13px;flex-wrap:wrap} .film-note{padding:15px} }
+  </style>
+</head>
+<body>
+<main>
+  <header><a class="brand" href="./">RediON / ArborKnowledge Studio</a><nav><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase">Projekt</a><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase/blob/main/README.en.md">English</a><a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase">GitHub</a></nav></header>
+  <p class="eyebrow">Real application · Fictional demo data</p>
+  <h1>Wissen mit Herkunft.<br>Menschen mit Kontrolle.</h1>
+  <p class="lead">Eine lokale Wissens-, Redaktions- und Lernplattform für professionelle Baumpflege. Erlebt in einem echten Anwendungsablauf mit ausschließlich fiktiven Daten.</p>
+  <section aria-label="Hauptfilm">
+    <div class="film">
+      <video controls playsinline preload="metadata" poster="assets/video-thumbnail.png" aria-label="ArborKnowledge Studio Hauptfilm, 90 Sekunden">
+        <source src="media/arbor-knowledge-studio-master.mp4" type="video/mp4">
+        <track src="media/arbor-knowledge-studio-master-de.vtt" kind="subtitles" srclang="de" label="Deutsch">
+        <track src="media/arbor-knowledge-studio-master-en.vtt" kind="subtitles" srclang="en" label="English">
+        Dein Browser unterstützt kein HTML5-Video. <a href="media/arbor-knowledge-studio-master.mp4">MP4 herunterladen</a>.
+      </video>
+      <div class="film-note"><span>90 s · 1920 × 1080 · Deutsche Stimme</span><span>Echte App-Aufnahmen · Isolierte Demo-Daten</span></div>
+    </div>
+    <div class="links"><a href="media/arbor-knowledge-studio-master.mp4">Film herunterladen</a><a href="media/arbor-knowledge-studio-master-de.srt">DE-SRT</a><a href="media/arbor-knowledge-studio-master-en.srt">EN-SRT</a><a href="media/transcript.md">Transkript DE/EN</a></div>
+  </section>
+  <hr class="divider">
+  <section class="split" id="social" aria-label="Social-Film">
+    <div><p class="eyebrow" style="margin-top:0">Kurzfilm / Social cut</p><h2>Die Idee in 35 Sekunden.</h2><p class="lead">Quellen und Wissenseinheiten werden für Redaktion und Lernen nutzbar, während die fachliche Freigabe beim Menschen bleibt.</p><p>Der vertikale Film nutzt dieselben echten App-Aufnahmen, grafisch für Mobilgeräte gesetzt.</p><div class="links"><a href="media/arbor-knowledge-studio-social.mp4">Kurzfilm herunterladen</a><a href="media/arbor-knowledge-studio-social-de.srt">DE-SRT</a><a href="media/arbor-knowledge-studio-social-en.srt">EN-SRT</a></div></div>
+    <div class="film social"><video controls playsinline preload="metadata" aria-label="ArborKnowledge Studio Kurzfilm, 35 Sekunden"><source src="media/arbor-knowledge-studio-social.mp4" type="video/mp4"><track src="media/arbor-knowledge-studio-social-de.vtt" kind="subtitles" srclang="de" label="Deutsch"><track src="media/arbor-knowledge-studio-social-en.vtt" kind="subtitles" srclang="en" label="English"></video></div>
+  </section>
+  <section class="status" aria-label="Projektstatus"><div><strong>Implemented</strong><span>Quellen, Wissenseinheiten, Redaktion, Export, Kurse.</span></div><div><strong>Verified</strong><span>261 Tests, V4-Smoke und Browserchecks mit fiktivem Fall.</span></div><div><strong>In Development</strong><span>Adaptiver AI-Lehrzweig im privaten Draft-Review.</span></div><div><strong>Vision</strong><span>Breitere Literatur- und Lern-Workflows.</span></div></section>
+  <footer>Redion Cekrezi · Full-Stack &amp; Applied AI Developer · <a href="https://github.com/IamRedi/arbor-knowledge-studio-showcase/blob/main/RIGHTS.md">Rechte &amp; Provenienz</a><br><strong>Produced by RediON — Upgrade humans. Not replace them.</strong></footer>
+</main>
+</body>
+</html>

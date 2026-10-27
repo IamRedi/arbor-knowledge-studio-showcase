@@ -8,9 +8,9 @@
 
 ## In 90 Sekunden ansehen
 
-[![ArborKnowledge Studio: 90 Sekunden realer Produktdemo](assets/video-thumbnail.png)](media/arbor-knowledge-studio-master.mp4)
+[![ArborKnowledge Studio: 90 Sekunden realer Produktdemo](assets/video-thumbnail.png)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)
 
-**[Demo-Film ansehen (90 s, 1920 × 1080)](media/arbor-knowledge-studio-master.mp4)** · [Vertikaler Kurzfilm (35 s)](media/arbor-knowledge-studio-social.mp4) · [Deutsche Untertitel](media/arbor-knowledge-studio-master-de.srt) · [English subtitles](media/arbor-knowledge-studio-master-en.srt) · [Transkript DE/EN](media/transcript.md)
+**[Demo-Film im Player ansehen (90 s, 1920 × 1080)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Vertikaler Kurzfilm (35 s)](https://iamredi.github.io/arbor-knowledge-studio-showcase/#social) · [MP4 herunterladen](media/arbor-knowledge-studio-master.mp4) · [Deutsche Untertitel](media/arbor-knowledge-studio-master-de.srt) · [English subtitles](media/arbor-knowledge-studio-master-en.srt) · [Transkript DE/EN](media/transcript.md)
 
 Die Videoaufnahmen zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; der Film behauptet keine erfolgreiche Live-AI-Antwort.
 
