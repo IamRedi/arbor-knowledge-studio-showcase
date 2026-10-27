@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">ArborKnowledge Studio — Wissen mit Herkunft</title>
+  <desc id="desc">Abstrakter Baum mit verbundenen Wissensknoten auf einem dunkelgrünen Hintergrund.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#173d32"/><stop offset="1" stop-color="#0d251f"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#c2a96b" stop-opacity=".27"/><stop offset="1" stop-color="#c2a96b" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" opacity=".045"/></pattern>
+  </defs>
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="url(#grain)"/>
+  <circle cx="280" cy="250" r="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#b9a46e" stroke-linecap="round">
+    <path d="M260 470 V296 M260 338 C210 295 181 248 170 187 M260 338 C308 292 340 235 348 173 M260 306 C235 253 236 210 249 140 M260 285 C294 240 304 203 302 145" stroke-width="9"/>
+    <path d="M170 187 112 141 M170 187 139 95 M348 173 399 124 M348 173 344 89 M249 140 211 95 M302 145 286 81" stroke-width="4" opacity=".8"/>
+    <path d="M260 470 H482 M260 416 H415 M260 365 H372" stroke-width="2" opacity=".48"/>
+  </g>
+  <g fill="#d5c18d">
+    <circle cx="112" cy="141" r="11"/><circle cx="139" cy="95" r="9"/><circle cx="399" cy="124" r="11"/><circle cx="344" cy="89" r="9"/><circle cx="211" cy="95" r="8"/><circle cx="286" cy="81" r="9"/>
+    <circle cx="482" cy="470" r="7"/><circle cx="415" cy="416" r="6"/><circle cx="372" cy="365" r="5"/>
+  </g>
+  <g fill="#f6f1e6">
+    <text x="570" y="185" font-family="Georgia,serif" font-size="67" font-weight="bold">ArborKnowledge Studio</text>
+    <text x="574" y="252" font-family="Arial,sans-serif" font-size="27" letter-spacing=".6">Wissen für Baumpflege. Mit Herkunft. Mit Verantwortung.</text>
+  </g>
+  <path d="M575 295 H1395" stroke="#c7b075" stroke-width="2" opacity=".72"/>
+  <text x="575" y="349" fill="#d5dbc9" font-family="Arial,sans-serif" font-size="21">Quellen  →  Evidenz  →  Wissen  →  Prüfung  →  Publikation &amp; Lernen</text>
+  <text x="575" y="444" fill="#b9c7b9" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">PRODUCED BY REDION</text>
+</svg>
