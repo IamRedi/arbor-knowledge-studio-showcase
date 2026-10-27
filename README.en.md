@@ -4,7 +4,6 @@
 
 **[Deutsch / main README](README.md)** · **As of 27 October 2026** · **Produced by RediON**
 
-
 > **Evidence and limitations:** Public product showcase with fictional data; the full application source remains private. The local end-to-end workflow and 261 tests are documented. A successful response from a live AI model has not been verified. [Verification record](EVIDENCE.md).
 
 ## Watch in English or German
