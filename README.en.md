@@ -10,7 +10,7 @@
 
 **[Watch the full film in the player (90 s, 1920 × 1080)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Vertical social cut (35 s)](https://iamredi.github.io/arbor-knowledge-studio-showcase/#social) · [Download MP4](media/arbor-knowledge-studio-master.mp4) · [German captions](media/arbor-knowledge-studio-master-de.srt) · [English captions](media/arbor-knowledge-studio-master-en.srt) · [DE/EN transcript](media/transcript.md)
 
-The screen recording shows the **running local application** with fictional data. The intro and architecture cards are original editorial graphics. The film does not claim a successful live AI response.
+The screen recording shows the **running local application** with fictional data. Visible UI labels were translated to English in the browser for this public presentation; product behavior, data and private source code were unchanged. The intro and architecture cards are original editorial graphics. The film does not claim a successful live AI response.
 
 | Status | Scope shown or described |
 |---|---|
@@ -40,11 +40,11 @@ AI can propose text or review findings. It does not approve evidence or replace 
 | Study | Courses, selected materials, coverage, deterministic learning flow and progress |
 | AI | Optional bounded drafting and evidence review. The configured credentials were rejected in this session, so live model quality is **not** claimed. |
 
-The private adaptive multilingual AI teaching branch has verification evidence but is **awaiting owner acceptance**. The interface is currently mostly Albanian; this showcase is written in German and English. This is a local application, with no public SaaS deployment.
+The private adaptive multilingual AI teaching branch has verification evidence but is **awaiting owner acceptance**. The original interface contains Albanian labels. English UI text in this showcase is a **presentation translation**, not a shipped product localization. This is a local application, with no public SaaS deployment.
 
 ## A real application demonstration with fictional data
 
-The screenshots show the running application on Chrome against an isolated synthetic database. The entirely fictional “Nordpark 07” case contains two self-authored source records, three linked knowledge units, a versioned chapter with a resolved review comment, an approval and DOCX export, plus a course with material and coverage views. The fictional case is not tree care advice.
+The screenshots show the running application on Chrome against an isolated synthetic database. Visible UI text was translated to English in the browser before capture. The entirely fictional “Nordpark 07” case contains two self-authored source records, three linked knowledge units, a versioned chapter with a resolved review comment, an approval and DOCX export, plus a course with material and coverage views. The fictional case is not tree care advice.
 
 | Source library | Traceable knowledge |
 |---|---|

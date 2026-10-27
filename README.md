@@ -12,7 +12,7 @@
 
 **[Demo-Film im Player ansehen (90 s, 1920 × 1080)](https://iamredi.github.io/arbor-knowledge-studio-showcase/)** · [Vertikaler Kurzfilm (35 s)](https://iamredi.github.io/arbor-knowledge-studio-showcase/#social) · [MP4 herunterladen](media/arbor-knowledge-studio-master.mp4) · [Deutsche Untertitel](media/arbor-knowledge-studio-master-de.srt) · [English subtitles](media/arbor-knowledge-studio-master-en.srt) · [Transkript DE/EN](media/transcript.md)
 
-Die Videoaufnahmen zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; der Film behauptet keine erfolgreiche Live-AI-Antwort.
+Die Videoaufnahmen zeigen die **laufende lokale Anwendung** mit ausschließlich fiktiven Daten. Sichtbare UI-Beschriftungen wurden für diese öffentliche Präsentation im Browser ins Englische übersetzt; Funktionen, Daten und privater Produktcode blieben unverändert. Die grafischen Intro- und Architekturtafeln sind eigens erstellte Erläuterungen; der Film behauptet keine erfolgreiche Live-AI-Antwort.
 
 | Status | Was im Film zu sehen ist |
 |---|---|
@@ -41,11 +41,11 @@ Für die hier gezeigte Demonstration wurde ein **vollständig fiktiver Fall „N
 | Lernen | Kurse, Materialauswahl, Abdeckungsprüfung, deterministischer Lernpfad und Fortschritt |
 | AI | Optionale, begrenzte Entwurfs- und Evidenzprüfung; bei der aktuellen Live-Prüfung wurden die konfigurierten API-Zugangsdaten abgewiesen. Eine erfolgreiche Live-Modellqualität wird hier **nicht** behauptet. |
 
-Die mehrsprachige adaptive AI-Lehrfunktion liegt auf einem privaten Feature-Branch mit Verifikationsnachweisen; sie ist **noch nicht vom Owner abgenommen** und wird hier nicht als freigegebenes Produkt dargestellt. Die Benutzeroberfläche ist derzeit überwiegend Albanisch; die öffentliche Projektdokumentation ist Deutsch/Englisch.
+Die mehrsprachige adaptive AI-Lehrfunktion liegt auf einem privaten Feature-Branch mit Verifikationsnachweisen; sie ist **noch nicht vom Owner abgenommen** und wird hier nicht als freigegebenes Produkt dargestellt. Die Originaloberfläche enthält albanische Beschriftungen; die englischen UI-Texte in den Medien sind eine **Präsentationsübersetzung**, keine freigegebene Produktlokalisierung.
 
 ## Einblick in die echte Anwendung
 
-Alle Bilder stammen aus einem lokal gestarteten Chrome gegen eine isolierte, synthetische Datenbank. Sie sind keine Mockups.
+Alle Bilder stammen aus einem lokal gestarteten Chrome gegen eine isolierte, synthetische Datenbank. Sichtbare UI-Texte wurden vor der Aufnahme im Browser ins Englische übersetzt; die Produktfunktionen und der fiktive deutsche Fall blieben unverändert. Es sind keine Mockups.
 
 | Quellenbibliothek | Evidenz mit Fundstelle |
 |---|---|
